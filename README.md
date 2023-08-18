@@ -11,5 +11,7 @@ https://bertt.github.io/cesium_issues/profile_mercator
 
 3] Dark 3D Tiles
 
-https://bertt.github.io/cesium_issues/dark
+issue: https://bertt.github.io/cesium_issues/dark
+
+fix: https://bertt.github.io/cesium_issues/dark/fixed
 
