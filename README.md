@@ -8,3 +8,8 @@ https://bertt.github.io/cesium_issues/profile_geodetic
 2] Terrain - Profile mercator
 
 https://bertt.github.io/cesium_issues/profile_mercator
+
+3] Dark 3D Tiles
+
+https://bertt.github.io/cesium_issues/dark
+
