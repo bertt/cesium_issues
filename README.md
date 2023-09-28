@@ -17,7 +17,7 @@ fix: https://bertt.github.io/cesium_issues/dark/fixed
 
 4] Double sided
 
-Double sided true: https://bertt.github.io/doublesided/double_sided_true
+Double sided true: https://bertt.github.io/cesium_issues/doublesided/double_sided_true
 
-Double sided false: https://bertt.github.io/doublesided/double_sided_false
+Double sided false: https://bertt.github.io/cesium_issues/doublesided/double_sided_false
 
