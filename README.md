@@ -23,7 +23,7 @@ Double sided false: https://bertt.github.io/cesium_issues/doublesided/double_sid
 
 5] I3dm versus GPU -  EXT_mesh_gpu_instancing (red boxes), i3dm (trees)
 
-https://bertt.github.io/cesium_issues/trees_gpu
+https://bertt.github.io/cesium_issues/i3dm_gpu/
 
 issue: EXT_mesh_gpu_instancing (red boxes), i3dm (trees), poisiton wrong, scale wrong
 
