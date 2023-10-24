@@ -21,8 +21,13 @@ Double sided true: https://bertt.github.io/cesium_issues/doublesided/double_side
 
 Double sided false: https://bertt.github.io/cesium_issues/doublesided/double_sided_false
 
+5] Compisite GPU instancing
+
+Sample with I3dm: https://bertt.github.io/cesium_issues/composite_gpu_instances
+
 5] I3dm versus GPU -  EXT_mesh_gpu_instancing (red boxes), i3dm (trees)
 
+https://bertt.github.io/cesium_issues/i3dm_gpu/issue
 
 issue: EXT_mesh_gpu_instancing (red boxes), i3dm (trees), poisiton wrong, scale wrong
 
@@ -34,7 +39,7 @@ fix: fix code for scaling, positions
 
 https://bertt.github.io/cesium_issues/i3dm_gpu/fix
 
-
+Fixed: https://bertt.github.io/cesium_issues/i3dm_gpu/fixed
 
 
 
