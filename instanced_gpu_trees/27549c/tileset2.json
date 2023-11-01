@@ -28,7 +28,7 @@
     },
     "geometricError": 512,
     "content": {
-      "uri": "treeinstanced1.glb"
+      "uri": "treeInstanced1.glb"
     },
     "refine": "ADD"
   }
