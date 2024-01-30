@@ -32,7 +32,7 @@
       ]
     },
     "content": {
-      "uri": "content/{level}_{x}_{y}.glb"
+      "uri": "content/{level}_{x}_{y}.gltf"
     },
     "implicitTiling": {
       "availableLevels": 1,

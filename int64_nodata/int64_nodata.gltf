@@ -1,0 +1,186 @@
+{
+  "extensions": {
+    "EXT_structural_metadata": {
+      "propertyTables": [
+        {
+          "class": "triangles",
+          "count": 1,
+          "properties": {
+            "description": {
+              "stringOffsets": 3,
+              "values": 2
+            },
+            "int64": {
+              "values": 4
+            }
+          }
+        }
+      ],
+      "schema": {
+        "classes": {
+          "triangles": {
+            "properties": {
+              "description": {
+                "type": "STRING"
+              },
+              "int64": {
+                "componentType": "INT64",
+                "noData": 10,
+                "type": "SCALAR"
+              }
+            }
+          }
+        },
+        "id": "schema_001"
+      }
+    }
+  },
+  "asset": {
+    "copyright": "",
+    "generator": "SharpGLTF 1.0.0\u002B5a33d5452528d827ac55727f302d8a91a75c4186",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "EXT_structural_metadata",
+    "EXT_mesh_features"
+  ],
+  "accessors": [
+    {
+      "name": "POSITION",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        1,
+        1,
+        0
+      ],
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "NORMAL",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        0,
+        0,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "_FEATURE_ID_0",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 3,
+      "max": [
+        0
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 3,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 84,
+      "byteStride": 28,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 6,
+      "byteOffset": 128,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 27,
+      "byteOffset": 84
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 112
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 120
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 136,
+      "uri": "int64_nodata.bin"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Default",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {}
+    }
+  ],
+  "meshes": [
+    {
+      "name": "mesh",
+      "primitives": [
+        {
+          "extensions": {
+            "EXT_mesh_features": {
+              "featureIds": [
+                {
+                  "attribute": 0,
+                  "featureCount": 1,
+                  "propertyTable": 0
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "_FEATURE_ID_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
