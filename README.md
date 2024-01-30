@@ -42,5 +42,9 @@ https://bertt.github.io/cesium_issues/i3dm_gpu/fix
 Fixed: https://bertt.github.io/cesium_issues/i3dm_gpu/fixed
 
 
+6] Metadata int64 - nodata
 
+https://bertt.github.io/cesium_issues/int64_nodata/
+
+Issue: CesiumJS does show the int64 value when setting it to Nodata
 
