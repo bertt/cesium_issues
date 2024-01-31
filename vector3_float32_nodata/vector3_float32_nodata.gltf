@@ -26,7 +26,7 @@
               "vector3": {
                 "componentType": "FLOAT32",
                 "type": "VEC3",
-		"noData": [10.0,10.0,10.0]
+		            "noData": [10.0,10.0,10.0]
               }
             }
           }
