@@ -48,3 +48,14 @@ https://bertt.github.io/cesium_issues/int64_nodata/
 
 Issue: CesiumJS does show the int64 value when setting it to Nodata
 
+7] Metadata Vector3 - float32 - noData
+
+https://bertt.github.io/cesium_issues/vector3_float32_nodata/
+
+Issue: When clicking a triangle with vector3 attribute set to Nodata, an exception throws.
+
+TypeError: Cannot read properties of undefined (reading '0') in unpack function
+
+
+
+
