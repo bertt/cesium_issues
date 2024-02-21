@@ -56,6 +56,10 @@ Issue: When clicking a triangle with vector3 attribute set to Nodata, an excepti
 
 TypeError: Cannot read properties of undefined (reading '0') in unpack function
 
+8] Long lines - Implicit and Explicit tiling
 
+Issue: When using implicit tiling and geometries that span multiple tiles, the geometry can dissappear
 
+issue: https://bertt.github.io/cesium_issues/long_lines/implicit
 
+workaround use explicit tiling: https://bertt.github.io/cesium_issues/long_lines/explicit
