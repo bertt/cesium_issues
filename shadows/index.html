@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cesium/1.115.0/Cesium.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/cesium/1.115.0/Widgets/widgets.min.css" rel="stylesheet">
+   </head>
+   
+   <body>
+     <div id="cesiumContainer"></div>
+     <script type="module">
+      Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzZDFhZGJhMi00OWQ2LTQzOGQtOTY2Ni04MmIxOTVjZmMwZjQiLCJpZCI6NDc4OSwiaWF0IjoxNjk4Mzk4MjM2fQ.GBw4d-IZ-VW22FnqX_fCE2zoctdf8wVnVxlpW2aOq5A";
+      const viewer = new Cesium.Viewer("cesiumContainer", {
+          globe: false
+      });
+      try {
+        const tileset = await Cesium.createGooglePhotorealistic3DTileset();
+        viewer.scene.primitives.add(tileset);
+      } catch (error) {
+        console.log(`Failed to load tileset: ${error}`);
+      }       
+       var modelMatrix = Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(4.892419,52.373158, 1000));
+       var gltf = await Cesium.Model.fromGltfAsync({
+          url : 'cono.glb',
+          modelMatrix : modelMatrix,
+          debugWireframe : true
+        });
+       var model = viewer.scene.primitives.add(gltf);
+       // model.debugWireframe = true;
+
+      // Lock camera to a point
+      viewer.camera.flyTo({
+       destination: new Cesium.Cartesian3.fromDegrees(4.876814,52.349654,6000
+      ),
+         duration: 0,
+		     orientation : {
+			      heading : Cesium.Math.toRadians(0),
+			      pitch : Cesium.Math.toRadians(-60.0),
+			      roll : 0.0   
+			  }    
+      });
+
+     </script>
+   </body>
+</html>
