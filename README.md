@@ -63,3 +63,10 @@ Issue: When using implicit tiling and geometries that span multiple tiles, the g
 issue: https://bertt.github.io/cesium_issues/long_lines/implicit
 
 workaround use explicit tiling: https://bertt.github.io/cesium_issues/long_lines/explicit
+
+9] Shadows
+
+https://bertt.github.io/cesium_issues/shadows/
+
+![image](https://github.com/bertt/cesium_issues/assets/538812/55b2bc64-dc62-48f8-ac4a-62630326b5ad)
+
