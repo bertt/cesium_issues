@@ -70,3 +70,6 @@ https://bertt.github.io/cesium_issues/shadows/
 
 ![image](https://github.com/bertt/cesium_issues/assets/538812/55b2bc64-dc62-48f8-ac4a-62630326b5ad)
 
+10] Shaky GPU instances
+
+https://bertt.github.io/cesium_issues/shaky_gpu_instances/issue/
