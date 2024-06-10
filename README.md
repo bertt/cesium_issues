@@ -76,6 +76,10 @@ Issue: When using Cesium ECEF positions in GPU instances, jittering occurs
 
 https://bertt.github.io/cesium_issues/shaky_gpu_instances/issue/
 
+Fix: Use relative instance positions
+
+https://bertt.github.io/cesium_issues/shaky_gpu_instances/issue/
+
 11] Disappearing i3dm's
 
 Issue: When using a tree with RTC_CENTER in i3dm, one of the trees disappears. When using a box it does not occur
