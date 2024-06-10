@@ -78,7 +78,7 @@ https://bertt.github.io/cesium_issues/shaky_gpu_instances/issue/
 
 Fix: Use relative instance positions
 
-https://bertt.github.io/cesium_issues/shaky_gpu_instances/issue/
+https://bertt.github.io/cesium_issues/shaky_gpu_instances/fix/
 
 11] Disappearing i3dm's
 
