@@ -87,3 +87,19 @@ Issue: When using a tree with RTC_CENTER in i3dm, one of the trees disappears. W
 Tree: https://bertt.github.io/cesium_issues/i3dm_disappearing/tree/
 
 Box: https://bertt.github.io/cesium_issues/i3dm_disappearing/box/
+
+12] Disappearing i3dm's - windmills
+
+Issue: When using a windmill it does disappear sometimes
+
+Windmill: https://bertt.github.io/cesium_issues/i3dm_disappearing2/issue/
+
+Repaired windmill: https://bertt.github.io/cesium_issues/i3dm_disappearing/workaround/
+
+13] Animating i3dm's - windmills
+
+Issue: How can we animate I3dm's?
+
+Windmill: https://bertt.github.io/cesium_issues/i3dm_animating/issue/
+
+
