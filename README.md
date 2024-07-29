@@ -94,7 +94,9 @@ Issue: When using a windmill it does disappear sometimes
 
 Windmill: https://bertt.github.io/cesium_issues/i3dm_disappearing2/issue/
 
-Repaired windmill: https://bertt.github.io/cesium_issues/i3dm_disappearing/workaround/
+Repaired windmill: https://bertt.github.io/cesium_issues/i3dm_disappearing2/workaround/
+
+ClearnodeTransform: https://bertt.github.io/cesium_issues/i3dm_disappearing2/clearnodetransform/index.html
 
 13] Animating i3dm's - windmills
 
