@@ -104,4 +104,10 @@ Issue: How can we animate I3dm's?
 
 Windmill: https://bertt.github.io/cesium_issues/i3dm_animating/issue/
 
+14] I3dm with GPU instancing GLB inside
+
+Issue: Nothing gets drawn
+
+Windmill: https://bertt.github.io/cesium_issues/i3dm_with_gpu_instancing/issue/
+
 
