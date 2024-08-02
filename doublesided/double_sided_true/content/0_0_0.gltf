@@ -1,0 +1,192 @@
+{
+  "extensions": {
+    "EXT_structural_metadata": {
+      "propertyTables": [
+        {
+          "class": "propertyTable",
+          "count": 1,
+          "properties": {
+            "identificatie": {
+              "stringOffsets": 3,
+              "values": 2
+            }
+          }
+        }
+      ],
+      "schema": {
+        "classes": {
+          "propertyTable": {
+            "properties": {
+              "identificatie": {
+                "type": "STRING"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "asset": {
+    "generator": "SharpGLTF 1.0.0-cesiummetadata",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "EXT_structural_metadata",
+    "EXT_mesh_features"
+  ],
+  "accessors": [
+    {
+      "name": "POSITION",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 216,
+      "max": [
+        -255.76611328125,
+        1332.1031494140625,
+        219.97531127929688
+      ],
+      "min": [
+        -314.6190185546875,
+        1288.752685546875,
+        171.41273498535156
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "NORMAL",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 216,
+      "max": [
+        0.7840943932533264,
+        0.9954171776771545,
+        0.7877830266952515
+      ],
+      "min": [
+        -0.7806042432785034,
+        -0.9980525970458984,
+        -0.7875752449035645
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "_FEATURE_ID_0",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 216,
+      "max": [
+        0
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 216,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6048,
+      "byteStride": 28,
+      "target": 34962,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 432,
+      "byteOffset": 6048,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32,
+      "byteOffset": 6480
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 6512
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "0_0_0_data.bin",
+      "byteLength": 6520
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0.501960813999176
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "mesh",
+      "primitives": [
+        {
+          "extensions": {
+            "EXT_mesh_features": {
+              "featureIds": [
+                {
+                  "attribute": 0,
+                  "featureCount": 1,
+                  "propertyTable": 0
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "_FEATURE_ID_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

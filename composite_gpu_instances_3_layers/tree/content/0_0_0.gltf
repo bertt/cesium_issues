@@ -1,0 +1,156 @@
+{
+  "asset": {
+    "copyright": "",
+    "generator": "SharpGLTF 1.0.0-cesiummetadata",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "name": "POSITION",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 642,
+      "max": [
+        2.396726608276367,
+        1.2723299264907837,
+        4.258903503417969
+      ],
+      "min": [
+        -1.0438892841339111,
+        -1.4909886121749878,
+        -1.8582763671875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "NORMAL",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 642,
+      "max": [
+        0.9978843331336975,
+        0.9985150694847107,
+        1
+      ],
+      "min": [
+        -0.9991545081138611,
+        -0.9753981828689575,
+        -0.9562807083129883
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "TEXCOORD_0",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 642,
+      "max": [
+        0.933307945728302,
+        0.4239773750305176
+      ],
+      "min": [
+        0.0641050785779953,
+        0.056852102279663086
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 642,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 20544,
+      "byteStride": 32,
+      "target": 34962,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1284,
+      "byteOffset": 20544,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "0_0_0_data.bin",
+      "byteLength": 21828
+    }
+  ],
+  "images": [
+    {
+      "name": "Image_0",
+      "uri": "0_0_0_img0.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material_0.001",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9568628072738647
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh_0.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.9285439,
+        0.048253607,
+        -0.13013457,
+        0.34430036
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "translation": [
+        0.045617398,
+        0.09586762,
+        0.04008493
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}

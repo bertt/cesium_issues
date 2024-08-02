@@ -100,7 +100,7 @@ ClearnodeTransform: https://bertt.github.io/cesium_issues/i3dm_disappearing2/cle
 
 Testing PR 12015: https://bertt.github.io/cesium_issues/i3dm_disappearing2/testing_pr_12105/
 
-(uses CesiumJS from https://bertt.github.io/cesium_issues/i3dm_disappearing2/testing_pr_12105/Cesium.js)
+(uses CesiumJS from https://bertt.github.io/cesium_issues/i3dm_disappearing2/testing_pr_12105/cesium/Cesium.js)
 
 13] Animating i3dm's - windmills
 

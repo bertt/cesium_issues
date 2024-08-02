@@ -1,0 +1,203 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.0.2",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        3.7083332538604736
+      ],
+      "min": [
+        0
+      ],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC4",
+      "componentType": 5126,
+      "count": 4,
+      "bufferView": 0,
+      "byteOffset": 16
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1521,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6627,
+      "bufferView": 1,
+      "byteOffset": 3044
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 740,
+      "max": [
+        33.859256744384766,
+        139.99102783203125,
+        9.52957534790039
+      ],
+      "min": [
+        -35.58856964111328,
+        78.28841400146484,
+        4.456590175628662
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 740,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3635,
+      "max": [
+        3.376161575317383,
+        103.71656036376953,
+        4.557344913482666
+      ],
+      "min": [
+        -3.376162052154541,
+        -1.1918214559555054,
+        -13.400678634643555
+      ],
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3635,
+      "bufferView": 3,
+      "byteOffset": 12
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 80
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80,
+      "byteLength": 16300,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16380,
+      "byteLength": 17760,
+      "byteStride": 24,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 34140,
+      "byteLength": 87240,
+      "byteStride": 24,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "0_0_0_data.bin",
+      "byteLength": 121380
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_Wind_Turbine",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.4000000059604645,
+        "metallicFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh_2",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 2
+        }
+      ]
+    },
+    {
+      "name": "Mesh_2.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "SM_Rotor_LOD2",
+      "mesh": 0
+    },
+    {
+      "name": "SM_Pillar_LOD2",
+      "mesh": 1
+    }
+  ],
+  "animations": [
+    {
+      "name": "SM_Rotor_LOD2Action.003",
+      "samplers": [
+        {
+          "input": 0,
+          "output": 1,
+          "interpolation": "LINEAR"
+        }
+      ],
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scene": 0
+}
