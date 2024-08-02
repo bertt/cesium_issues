@@ -102,6 +102,8 @@ Testing PR 12015: https://bertt.github.io/cesium_issues/i3dm_disappearing2/testi
 
 (uses CesiumJS from https://bertt.github.io/cesium_issues/i3dm_disappearing2/testing_pr_12105/cesium/Cesium.js)
 
+Test kast with PR 12015: https://bertt.github.io/cesium_issues/i3dm_disappearing2/testing_pr_12105_kast/
+
 13] Animating i3dm's - windmills
 
 Issue: How can we animate I3dm's?
