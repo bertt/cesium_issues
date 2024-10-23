@@ -125,3 +125,21 @@ https://community.cesium.com/t/show-attributes-of-gpu-instancing-model-with-mult
 Demo: Only red works https://bertt.github.io/cesium_issues/gpu_metadata_multiple_meshes/issue/red_first/
 
 Demo: Only green works https://bertt.github.io/cesium_issues/gpu_metadata_multiple_meshes/issue/green_first/
+
+16] Issue upgrading i3dm to glb
+
+https://github.com/CesiumGS/3d-tiles-tools/issues/153
+
+With a simple box it works ok:
+
+I3dm: https://bertt.github.io/cesium_issues/instance_upgrade/box/i3dm
+
+glb: https://bertt.github.io/cesium_issues/instance_upgrade/box/glb
+
+But with a tree model the tree (https://bertt.github.io/cesium_issues/instance_upgrade/tree/tree.glb) doesn't show up:
+
+I3dm: https://bertt.github.io/cesium_issues/instance_upgrade/tree/i3dm
+
+glb: https://bertt.github.io/cesium_issues/instance_upgrade/tree/glb
+
+Only difference is in the used model. Any ideas how to show the tree in glb format after upgrade?
