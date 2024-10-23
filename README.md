@@ -118,4 +118,10 @@ Issue: Nothing gets drawn
 
 Windmill: https://bertt.github.io/cesium_issues/i3dm_with_gpu_instancing/issue/
 
+15]] Instanced model with multiple meshes - only first first mesg displays attributes
 
+https://community.cesium.com/t/show-attributes-of-gpu-instancing-model-with-multiple-meshes/35842
+
+Demo: Only red works https://bertt.github.io/cesium_issues/gpu_metadata_multiple_meshes/issue/red_first/
+
+Demo: Only green works https://bertt.github.io/cesium_issues/gpu_metadata_multiple_meshes/issue/green_first/
