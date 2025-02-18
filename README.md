@@ -143,3 +143,12 @@ I3dm: https://bertt.github.io/cesium_issues/instance_upgrade/tree/i3dm
 glb: https://bertt.github.io/cesium_issues/instance_upgrade/tree/glb
 
 Only difference is in the used model. Any ideas how to show the tree in glb format after upgrade?
+
+17] Nodata testing
+
+https://bertt.github.io/cesium_issues/nodata_testing/
+
+Testing Nodata for: varchar, int16, int32 ,int64, float32, float64
+
+Demo only displays fields id,name and not fields string_with_null_value,int16_with_null_value,int32_with_null_value,int64_with_null_value,float32_with_null_value,float64_with_null_value
+
