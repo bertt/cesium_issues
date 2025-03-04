@@ -152,3 +152,6 @@ Testing Nodata for: varchar, int16, int32 ,int64, float32, float64
 
 Demo only displays fields id,name and not fields string_with_null_value,int16_with_null_value,int32_with_null_value,int64_with_null_value,float32_with_null_value,float64_with_null_value
 
+18] 3dtiles_Content_voxels unspoorted?
+
+https://bertt.github.io/cesium_issues/3dtiles_Content_voxels_unsupported/issue/
