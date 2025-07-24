@@ -157,3 +157,14 @@ Demo only displays fields id,name and not fields string_with_null_value,int16_wi
 Issue: https://bertt.github.io/cesium_issues/3dtiles_Content_voxels_unsupported/issue/
 
 Fix: https://bertt.github.io/cesium_issues/3dtiles_Content_voxels_unsupported/fix/
+
+
+18] Voxel_404 quadtree
+
+Issue: Voxels are not rendered (404) https://bertt.github.io/cesium_issues/voxels_quadtree_404/issue/
+
+Workarround: Add 0.0.0.glb https://bertt.github.io/cesium_issues/voxels_quadtree_404/workaround/
+
+
+
+Workaround: 
