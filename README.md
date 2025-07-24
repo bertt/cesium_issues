@@ -163,8 +163,4 @@ Fix: https://bertt.github.io/cesium_issues/3dtiles_Content_voxels_unsupported/fi
 
 Issue: Voxels are not rendered (404) https://bertt.github.io/cesium_issues/voxels_quadtree_404/issue/
 
-Workarround: Add 0.0.0.glb https://bertt.github.io/cesium_issues/voxels_quadtree_404/workaround/
-
-
-
-Workaround: 
+Workaround: Add 0.0.0.glb https://bertt.github.io/cesium_issues/voxels_quadtree_404/workaround/
