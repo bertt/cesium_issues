@@ -152,6 +152,15 @@ Testing Nodata for: varchar, int16, int32 ,int64, float32, float64
 
 Demo only displays fields id,name and not fields string_with_null_value,int16_with_null_value,int32_with_null_value,int64_with_null_value,float32_with_null_value,float64_with_null_value
 
-18] 3dtiles_Content_voxels unspoorted?
+18] 3dtiles_Content_voxels unsupported?
 
-https://bertt.github.io/cesium_issues/3dtiles_Content_voxels_unsupported/issue/
+Issue: https://bertt.github.io/cesium_issues/3dtiles_Content_voxels_unsupported/issue/
+
+Fix: https://bertt.github.io/cesium_issues/3dtiles_Content_voxels_unsupported/fix/
+
+
+18] Voxel_404 quadtree
+
+Issue: Voxels are not rendered (404) https://bertt.github.io/cesium_issues/voxels_quadtree_404/issue/
+
+Workaround: Add 0.0.0.glb https://bertt.github.io/cesium_issues/voxels_quadtree_404/workaround/
