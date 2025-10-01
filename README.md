@@ -178,7 +178,7 @@ Workaround: Use ITowns https://bertt.github.io/itowns_samples/planar_view_3dtile
 
 Issue: WIndows are not transparent
 
-https://bertt.github.io/cesium_issues/ifc_transparency
+https://bertt.github.io/cesium_issues/ifc_transparency/issue
 
 
 
