@@ -174,6 +174,11 @@ https://bertt.github.io/cesium_issues/planar_view/
 
 Workaround: Use ITowns https://bertt.github.io/itowns_samples/planar_view_3dtiles/
 
+20] IFC Transparency
+
+Issue: WIndows are not transparent
+
+https://bertt.github.io/cesium_issues/ifc_transparency
 
 
 
