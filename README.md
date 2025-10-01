@@ -158,9 +158,22 @@ Issue: https://bertt.github.io/cesium_issues/3dtiles_Content_voxels_unsupported/
 
 Fix: https://bertt.github.io/cesium_issues/3dtiles_Content_voxels_unsupported/fix/
 
-
 18] Voxel_404 quadtree
 
 Issue: Voxels are not rendered (404) https://bertt.github.io/cesium_issues/voxels_quadtree_404/issue/
 
 Workaround: Add 0.0.0.glb https://bertt.github.io/cesium_issues/voxels_quadtree_404/workaround/
+
+19] Planar View
+
+Issue: 3D Tiles with projection coordinates are not visualizes well
+
+https://bertt.github.io/cesium_issues/planar_view/
+
+<img width="1075" height="687" alt="image" src="https://github.com/user-attachments/assets/1850a85f-2d07-43eb-8ac1-a3c78f545bad" />
+
+Workaround: Use ITowns https://bertt.github.io/itowns_samples/planar_view_3dtiles/
+
+
+
+
