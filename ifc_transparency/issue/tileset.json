@@ -39,7 +39,7 @@
       "uri": "content/{level}_{x}_{y}.glb"
     },
     "implicitTiling": {
-      "availableLevels": 2,
+      "availableLevels": 1,
       "subdivisionScheme": "QUADTREE",
       "subtreeLevels": 2,
       "subtrees": {
