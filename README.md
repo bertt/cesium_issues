@@ -180,5 +180,22 @@ Issue: WIndows are not transparent
 
 https://bertt.github.io/cesium_issues/ifc_transparency/issue
 
+21] AlphaMode Blend
+
+Issue: When alphaMode = BLEND and 100% alpha value then CesiumJS still blends
+
+<img width="939" height="635" alt="image" src="https://github.com/user-attachments/assets/7588e61e-dc24-48fd-9127-8b19c8c20309" />
+
+https://bertt.github.io/cesium_issues/alphamode_blend/issue/
+
+Workaround: Set alphaMode to OPQAUE when 100% alpha value
+
+<img width="892" height="658" alt="image" src="https://github.com/user-attachments/assets/f1b94c69-96ad-4edc-b991-c9f787450e26" />
+
+https://bertt.github.io/cesium_issues/alphamode_blend/workaround/
+
+
+
+
 
 
