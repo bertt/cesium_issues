@@ -45,6 +45,14 @@ const modelMatrix = Cesium.Matrix4.fromScale(
   ),
 );
 
+const modelMatrix1 = Cesium.Matrix4.fromScale(
+  Cesium.Cartesian3.fromElements(
+    1,
+    1,
+    1,
+  ),
+);
+
 function createPrimitive(provider, customShader, modelMatrix) {
   viewer.scene.primitives.removeAll();
 
@@ -71,7 +79,7 @@ function createPrimitive(provider, customShader, modelMatrix) {
   const provider = await Cesium.Cesium3DTilesVoxelProvider.fromUrl(
         "tileset.json"
       );  
-    const primitive = createPrimitive(provider, customShaderColor, modelMatrix);
+    const primitive = createPrimitive(provider, customShaderColor, modelMatrix1);
 
     //viewer.scene.primitives.add(tileset);
     //viewer.zoomTo(tileset, new Cesium.HeadingPitchRange(0, -0.5, 0));
